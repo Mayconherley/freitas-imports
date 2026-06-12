@@ -1,0 +1,256 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 2404 >>
+stream
+BT /F2 22 Tf 48 784 Td (Manual de Uso - Freitas Imports) Tj ET
+BT /F1 11 Tf 48 742 Td (Este manual explica como usar o sistema da Freitas Imports no dia a dia, tanto no) Tj ET
+BT /F1 11 Tf 48 728 Td (lado da loja quanto no painel de gestao.) Tj ET
+BT /F2 16 Tf 48 700 Td (1. Acessos do Sistema) Tj ET
+BT /F2 13 Tf 48 663 Td (Loja virtual) Tj ET
+BT /F1 11 Tf 48 646 Td (A loja e o lado que o cliente acessa para ver produtos, adicionar itens ao) Tj ET
+BT /F1 11 Tf 48 632 Td (carrinho e fazer pedidos.) Tj ET
+BT /F1 11 Tf 48 611 Td (Endereco local de teste:) Tj ET
+BT /F3 9 Tf 56 586 Td (http://127.0.0.1:8000) Tj ET
+BT /F2 13 Tf 48 558 Td (Area do cliente) Tj ET
+BT /F1 11 Tf 48 541 Td (O cliente pode criar uma conta, entrar e acompanhar seus pedidos.) Tj ET
+BT /F1 11 Tf 48 520 Td (Endereco:) Tj ET
+BT /F3 9 Tf 56 495 Td (http://127.0.0.1:8000/cliente/entrar) Tj ET
+BT /F2 13 Tf 48 467 Td (Painel de gestao) Tj ET
+BT /F1 11 Tf 48 450 Td (O painel de gestao e usado pela equipe da loja para cadastrar produtos, acompanhar) Tj ET
+BT /F1 11 Tf 48 436 Td (pedidos, controlar estoque e atualizar status.) Tj ET
+BT /F1 11 Tf 48 415 Td (Endereco:) Tj ET
+BT /F3 9 Tf 56 390 Td (http://127.0.0.1:8000/gestao) Tj ET
+BT /F2 16 Tf 48 360 Td (2. Login da Gestao) Tj ET
+BT /F1 11 Tf 48 328 Td (Use o acesso administrativo para entrar no painel:) Tj ET
+BT /F3 9 Tf 56 303 Td (Email: admin@freitasimports.test) Tj ET
+BT /F3 9 Tf 56 291 Td (Senha: password) Tj ET
+BT /F1 11 Tf 48 268 Td (Depois que o sistema estiver em producao, essa senha deve ser alterada.) Tj ET
+BT /F2 16 Tf 48 240 Td (3. Como o Cliente Compra) Tj ET
+BT /F1 11 Tf 48 208 Td (1. O cliente acessa a loja.) Tj ET
+BT /F1 11 Tf 48 194 Td (2. Navega pelo catalogo ou usa os filtros.) Tj ET
+BT /F1 11 Tf 48 180 Td (3. Abre a pagina de um produto.) Tj ET
+BT /F1 11 Tf 48 166 Td (4. Escolhe uma variacao, quando existir, como tamanho, cor ou volume.) Tj ET
+BT /F1 11 Tf 48 152 Td (5. Adiciona ao carrinho.) Tj ET
+BT /F1 11 Tf 48 138 Td (6. Confere os itens no carrinho.) Tj ET
+BT /F1 11 Tf 48 124 Td (7. Finaliza o pedido no checkout.) Tj ET
+BT /F1 11 Tf 48 110 Td (8. Informa nome, email, telefone, entrega e forma de pagamento.) Tj ET
+BT /F1 11 Tf 48 96 Td (9. Ao finalizar, recebe o numero do pedido.) Tj ET
+BT /F1 11 Tf 54 82 Td (10. Se escolher Pix, o sistema mostra a chave Pix e um botao para chamar no) Tj ET
+BT /F1 11 Tf 54 68 Td (WhatsApp.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 2398 >>
+stream
+BT /F2 16 Tf 48 776 Td (4. Area do Cliente) Tj ET
+BT /F1 11 Tf 48 744 Td (Na area do cliente, a pessoa pode:) Tj ET
+BT /F1 11 Tf 60 723 Td (- Criar uma conta.) Tj ET
+BT /F1 11 Tf 60 709 Td (- Entrar com email e senha.) Tj ET
+BT /F1 11 Tf 60 695 Td (- Ver pedidos vinculados a conta.) Tj ET
+BT /F1 11 Tf 60 681 Td (- Conferir status do pedido.) Tj ET
+BT /F1 11 Tf 60 667 Td (- Conferir status do pagamento.) Tj ET
+BT /F1 11 Tf 60 653 Td (- Ver os itens comprados.) Tj ET
+BT /F1 11 Tf 48 632 Td (Conta de teste:) Tj ET
+BT /F3 9 Tf 56 607 Td (Email: cliente@freitasimports.test) Tj ET
+BT /F3 9 Tf 56 595 Td (Senha: password) Tj ET
+BT /F2 16 Tf 48 565 Td (5. Painel de Gestao) Tj ET
+BT /F1 11 Tf 48 533 Td (Ao entrar em `/gestao`, a equipe ve o dashboard com informacoes principais:) Tj ET
+BT /F1 11 Tf 60 512 Td (- Faturamento.) Tj ET
+BT /F1 11 Tf 60 498 Td (- Quantidade de pedidos.) Tj ET
+BT /F1 11 Tf 60 484 Td (- Quantidade de produtos.) Tj ET
+BT /F1 11 Tf 60 470 Td (- Produtos com estoque baixo.) Tj ET
+BT /F1 11 Tf 60 456 Td (- Pedidos recentes.) Tj ET
+BT /F2 16 Tf 48 428 Td (6. Cadastro de Produtos) Tj ET
+BT /F1 11 Tf 48 396 Td (Para cadastrar um produto:) Tj ET
+BT /F1 11 Tf 48 375 Td (1. Entre na gestao.) Tj ET
+BT /F1 11 Tf 48 361 Td (2. Clique em **Produtos**.) Tj ET
+BT /F1 11 Tf 48 347 Td (3. Clique em **Novo produto**.) Tj ET
+BT /F1 11 Tf 48 333 Td (4. Preencha as informacoes principais:) Tj ET
+BT /F1 11 Tf 60 319 Td (- Nome.) Tj ET
+BT /F1 11 Tf 60 305 Td (- Categoria.) Tj ET
+BT /F1 11 Tf 60 291 Td (- SKU/codigo interno.) Tj ET
+BT /F1 11 Tf 60 277 Td (- Codigo de barras, se houver.) Tj ET
+BT /F1 11 Tf 60 263 Td (- Preco de venda.) Tj ET
+BT /F1 11 Tf 60 249 Td (- Preco antigo, se quiser mostrar promocao.) Tj ET
+BT /F1 11 Tf 60 235 Td (- Preco de custo.) Tj ET
+BT /F1 11 Tf 60 221 Td (- Estoque.) Tj ET
+BT /F1 11 Tf 60 207 Td (- Tamanho.) Tj ET
+BT /F1 11 Tf 60 193 Td (- Cor.) Tj ET
+BT /F1 11 Tf 60 179 Td (- Descricao.) Tj ET
+BT /F1 11 Tf 48 165 Td (5. Adicione uma imagem:) Tj ET
+BT /F1 11 Tf 60 151 Td (- Pode usar uma URL de imagem.) Tj ET
+BT /F1 11 Tf 60 137 Td (- Ou fazer upload de uma imagem do computador.) Tj ET
+BT /F1 11 Tf 48 123 Td (6. Marque **Destaque na vitrine** se o produto deve aparecer em destaque.) Tj ET
+BT /F1 11 Tf 48 109 Td (7. Marque **Ativo na loja** para o produto aparecer no catalogo.) Tj ET
+BT /F1 11 Tf 48 95 Td (8. Clique em **Salvar**.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 2211 >>
+stream
+BT /F2 16 Tf 48 790 Td (7. Variacoes de Produtos) Tj ET
+BT /F1 11 Tf 48 758 Td (As variacoes servem para produtos que possuem tamanhos, cores ou volumes) Tj ET
+BT /F1 11 Tf 48 744 Td (diferentes.) Tj ET
+BT /F1 11 Tf 48 723 Td (Exemplos:) Tj ET
+BT /F1 11 Tf 60 702 Td (- Camiseta P, M e G.) Tj ET
+BT /F1 11 Tf 60 688 Td (- Perfume 50ml e 100ml.) Tj ET
+BT /F1 11 Tf 60 674 Td (- Bolsa preta e bolsa caramelo.) Tj ET
+BT /F1 11 Tf 48 653 Td (Em cada variacao, e possivel informar:) Tj ET
+BT /F1 11 Tf 60 632 Td (- Nome da variacao.) Tj ET
+BT /F1 11 Tf 60 618 Td (- SKU.) Tj ET
+BT /F1 11 Tf 60 604 Td (- Tamanho.) Tj ET
+BT /F1 11 Tf 60 590 Td (- Cor.) Tj ET
+BT /F1 11 Tf 60 576 Td (- Estoque.) Tj ET
+BT /F1 11 Tf 60 562 Td (- Ajuste de preco.) Tj ET
+BT /F1 11 Tf 48 541 Td (Exemplo:) Tj ET
+BT /F3 9 Tf 56 516 Td (Produto: Perfume Essence Noir) Tj ET
+BT /F3 9 Tf 56 504 Td (Preco base: R$ 189,90) Tj ET
+BT /F3 9 Tf 56 492 Td (Variacao 100ml: ajuste R$ 0,00) Tj ET
+BT /F3 9 Tf 56 480 Td (Variacao 50ml: ajuste -R$ 54,90) Tj ET
+BT /F2 16 Tf 48 450 Td (8. Controle de Estoque) Tj ET
+BT /F1 11 Tf 48 418 Td (O estoque e reduzido automaticamente quando um pedido e criado.) Tj ET
+BT /F1 11 Tf 48 397 Td (Se o produto possui variacao, o sistema reduz:) Tj ET
+BT /F1 11 Tf 60 376 Td (- O estoque da variacao.) Tj ET
+BT /F1 11 Tf 60 362 Td (- O estoque geral do produto.) Tj ET
+BT /F1 11 Tf 48 341 Td (No dashboard, produtos com estoque baixo aparecem em destaque para facilitar) Tj ET
+BT /F1 11 Tf 48 327 Td (reposicao.) Tj ET
+BT /F2 16 Tf 48 299 Td (9. Pedidos) Tj ET
+BT /F1 11 Tf 48 267 Td (Para acompanhar pedidos:) Tj ET
+BT /F1 11 Tf 48 246 Td (1. Entre na gestao.) Tj ET
+BT /F1 11 Tf 48 232 Td (2. Clique em **Pedidos**.) Tj ET
+BT /F1 11 Tf 48 218 Td (3. Abra o pedido desejado.) Tj ET
+BT /F1 11 Tf 48 197 Td (Dentro do pedido, e possivel ver:) Tj ET
+BT /F1 11 Tf 60 176 Td (- Codigo do pedido.) Tj ET
+BT /F1 11 Tf 60 162 Td (- Cliente.) Tj ET
+BT /F1 11 Tf 60 148 Td (- Email.) Tj ET
+BT /F1 11 Tf 60 134 Td (- Telefone.) Tj ET
+BT /F1 11 Tf 60 120 Td (- Itens comprados.) Tj ET
+BT /F1 11 Tf 60 106 Td (- SKU dos itens.) Tj ET
+BT /F1 11 Tf 60 92 Td (- Variacoes.) Tj ET
+BT /F1 11 Tf 60 78 Td (- Forma de pagamento.) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 2181 >>
+stream
+BT /F1 11 Tf 60 790 Td (- Status do pagamento.) Tj ET
+BT /F1 11 Tf 60 776 Td (- Metodo de entrega.) Tj ET
+BT /F1 11 Tf 60 762 Td (- Endereco.) Tj ET
+BT /F1 11 Tf 60 748 Td (- Total.) Tj ET
+BT /F1 11 Tf 60 734 Td (- Historico do pedido.) Tj ET
+BT /F2 16 Tf 48 706 Td (10. Status do Pedido) Tj ET
+BT /F1 11 Tf 48 674 Td (O pedido pode ter os seguintes status:) Tj ET
+BT /F1 11 Tf 60 653 Td (- **Novo**: pedido acabou de ser criado.) Tj ET
+BT /F1 11 Tf 60 639 Td (- **Separacao**: equipe esta separando os produtos.) Tj ET
+BT /F1 11 Tf 60 625 Td (- **Enviado**: pedido saiu para entrega.) Tj ET
+BT /F1 11 Tf 60 611 Td (- **Concluido**: pedido finalizado.) Tj ET
+BT /F1 11 Tf 60 597 Td (- **Cancelado**: pedido cancelado.) Tj ET
+BT /F1 11 Tf 48 576 Td (Sempre que o status e alterado, o sistema registra no historico.) Tj ET
+BT /F2 16 Tf 48 548 Td (11. Status do Pagamento) Tj ET
+BT /F1 11 Tf 48 516 Td (O pagamento pode ter os seguintes status:) Tj ET
+BT /F1 11 Tf 60 495 Td (- **Aguardando**: pagamento ainda nao confirmado.) Tj ET
+BT /F1 11 Tf 60 481 Td (- **Pago**: pagamento confirmado.) Tj ET
+BT /F1 11 Tf 60 467 Td (- **Estornado**: pagamento devolvido.) Tj ET
+BT /F1 11 Tf 48 446 Td (Para pedidos via Pix, o cliente ve a chave Pix ao finalizar o pedido.) Tj ET
+BT /F2 16 Tf 48 418 Td (12. WhatsApp) Tj ET
+BT /F1 11 Tf 48 386 Td (Na tela de pedido finalizado, o cliente pode clicar no botao de WhatsApp para) Tj ET
+BT /F1 11 Tf 48 372 Td (chamar a loja.) Tj ET
+BT /F1 11 Tf 48 351 Td (O numero usado fica configurado no arquivo `.env`:) Tj ET
+BT /F3 9 Tf 56 326 Td (STORE_WHATSAPP=5511999999999) Tj ET
+BT /F1 11 Tf 48 303 Td (Troque pelo numero real da loja, incluindo codigo do pais e DDD.) Tj ET
+BT /F1 11 Tf 48 282 Td (Exemplo para Brasil, DDD 11:) Tj ET
+BT /F3 9 Tf 56 257 Td (STORE_WHATSAPP=5511999999999) Tj ET
+BT /F2 16 Tf 48 227 Td (13. Chave Pix) Tj ET
+BT /F1 11 Tf 48 195 Td (A chave Pix tambem fica configurada no `.env`:) Tj ET
+BT /F3 9 Tf 56 170 Td (STORE_PIX_KEY=freitasimports@example.com) Tj ET
+BT /F1 11 Tf 48 147 Td (Troque pela chave Pix real da loja.) Tj ET
+BT /F2 16 Tf 48 119 Td (14. Rotina Recomendada da Loja) Tj ET
+BT /F2 13 Tf 48 82 Td (Todo dia) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 1688 >>
+stream
+BT /F1 11 Tf 60 790 Td (- Entrar na gestao.) Tj ET
+BT /F1 11 Tf 60 776 Td (- Conferir pedidos novos.) Tj ET
+BT /F1 11 Tf 60 762 Td (- Confirmar pagamentos.) Tj ET
+BT /F1 11 Tf 60 748 Td (- Atualizar status dos pedidos.) Tj ET
+BT /F1 11 Tf 60 734 Td (- Conferir produtos com estoque baixo.) Tj ET
+BT /F2 13 Tf 48 708 Td (Ao receber produto novo) Tj ET
+BT /F1 11 Tf 60 684 Td (- Cadastrar produto.) Tj ET
+BT /F1 11 Tf 60 670 Td (- Adicionar foto.) Tj ET
+BT /F1 11 Tf 60 656 Td (- Informar preco, estoque e variacoes.) Tj ET
+BT /F1 11 Tf 60 642 Td (- Marcar como ativo.) Tj ET
+BT /F2 13 Tf 48 616 Td (Ao finalizar entrega) Tj ET
+BT /F1 11 Tf 60 592 Td (- Abrir o pedido.) Tj ET
+BT /F1 11 Tf 60 578 Td (- Alterar status para **Concluido**.) Tj ET
+BT /F2 16 Tf 48 550 Td (15. Observacoes Importantes) Tj ET
+BT /F1 11 Tf 60 518 Td (- A gestao deve ser acessada apenas pela equipe da loja.) Tj ET
+BT /F1 11 Tf 60 504 Td (- A senha inicial deve ser alterada antes de usar com clientes reais.) Tj ET
+BT /F1 11 Tf 60 490 Td (- As imagens dos produtos devem estar claras e bem enquadradas.) Tj ET
+BT /F1 11 Tf 60 476 Td (- O estoque precisa ser mantido atualizado.) Tj ET
+BT /F1 11 Tf 60 462 Td (- O pagamento Pix deve ser conferido antes do envio do pedido.) Tj ET
+BT /F2 16 Tf 48 434 Td (16. Enderecos Principais) Tj ET
+BT /F3 9 Tf 56 398 Td (Loja: /) Tj ET
+BT /F3 9 Tf 56 386 Td (Catalogo: /produtos) Tj ET
+BT /F3 9 Tf 56 374 Td (Carrinho: /carrinho) Tj ET
+BT /F3 9 Tf 56 362 Td (Area do cliente: /cliente/entrar) Tj ET
+BT /F3 9 Tf 56 350 Td (Gestao: /gestao) Tj ET
+BT /F3 9 Tf 56 338 Td (Produtos da gestao: /gestao/products) Tj ET
+BT /F3 9 Tf 56 326 Td (Pedidos da gestao: /gestao/orders) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 14 0 R >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000148 00000 n 
+0000000245 00000 n 
+0000000347 00000 n 
+0000000442 00000 n 
+0000002898 00000 n 
+0000003044 00000 n 
+0000005494 00000 n 
+0000005640 00000 n 
+0000007904 00000 n 
+0000008052 00000 n 
+0000010286 00000 n 
+0000010434 00000 n 
+0000012175 00000 n 
+trailer
+<< /Size 16 /Root 1 0 R >>
+startxref
+12323
+%%EOF
