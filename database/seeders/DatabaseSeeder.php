@@ -19,16 +19,18 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        User::factory()->create([
+        User::create([
             'name' => 'Gestor da Loja',
             'email' => 'admin@freitasimports.test',
+            'email_verified_at' => now(),
             'password' => Hash::make('password'),
             'role' => 'admin',
         ]);
 
-        $customer = User::factory()->create([
+        $customer = User::create([
             'name' => 'Cliente Exemplo',
             'email' => 'cliente@freitasimports.test',
+            'email_verified_at' => now(),
             'password' => Hash::make('password'),
             'role' => 'customer',
             'phone' => '(11) 97777-0000',
