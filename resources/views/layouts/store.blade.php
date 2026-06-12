@@ -8,12 +8,12 @@
 </head>
 <body class="bg-[#f7f4ef] text-[#211f1c] antialiased">
     <header class="sticky top-0 z-30 border-b border-black/10 bg-[#f7f4ef]/95 backdrop-blur">
-        <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
             <a href="{{ route('home') }}" class="flex items-center gap-3">
-                <img src="{{ asset('images/freitas-imports-logo.png') }}" alt="Freitas Imports" class="h-12 w-12 rounded-full object-cover ring-1 ring-black/10">
+                <img src="{{ asset('images/freitas-imports-logo.png') }}" alt="Freitas Imports" class="h-10 w-10 rounded-full object-cover ring-1 ring-black/10 sm:h-12 sm:w-12">
                 <span>
                     <span class="block text-base font-bold">Freitas Imports</span>
-                    <span class="block text-xs text-[#756f66]">moda, perfumes e presentes</span>
+                    <span class="block text-xs text-[#756f66]">Moda, perfumes e presentes</span>
                 </span>
             </a>
             <nav class="hidden items-center gap-6 text-sm font-medium md:flex">
@@ -22,8 +22,13 @@
                 <a href="{{ auth()->check() ? route('customer.dashboard') : route('customer.login') }}" class="hover:text-[#d40000]">Minha conta</a>
                 <a href="{{ route('admin.dashboard') }}" class="rounded-lg border border-black/15 px-4 py-2 hover:border-[#d40000] hover:text-[#d40000]">Gestao</a>
             </nav>
-            <a href="{{ route('cart.index') }}" class="rounded-lg bg-[#d40000] px-4 py-2 text-sm font-semibold text-white md:hidden">Carrinho</a>
         </div>
+        <nav class="mx-auto grid max-w-7xl grid-cols-4 gap-2 px-4 pb-3 text-center text-xs font-semibold md:hidden">
+            <a href="{{ route('products.index') }}" class="rounded-lg bg-white px-2 py-2 ring-1 ring-black/10">Catalogo</a>
+            <a href="{{ route('cart.index') }}" class="rounded-lg bg-white px-2 py-2 ring-1 ring-black/10">Carrinho</a>
+            <a href="{{ auth()->check() ? route('customer.dashboard') : route('customer.login') }}" class="rounded-lg bg-white px-2 py-2 ring-1 ring-black/10">Conta</a>
+            <a href="{{ route('admin.dashboard') }}" class="rounded-lg bg-[#211f1c] px-2 py-2 text-white">Gestao</a>
+        </nav>
     </header>
 
     @if (session('success'))
@@ -43,15 +48,15 @@
                     <img src="{{ asset('images/freitas-imports-logo.png') }}" alt="Freitas Imports" class="h-12 w-12 rounded-full object-cover">
                     <p class="text-lg font-bold">Freitas Imports</p>
                 </div>
-                <p class="mt-2 text-white/65">Uma base pronta para vender online e controlar pedidos, estoque e atendimento.</p>
+                <p class="mt-2 text-white/65">Moda, perfumes e presentes selecionados com compra simples e atendimento direto.</p>
             </div>
             <div>
                 <p class="font-semibold">Atendimento</p>
-                <p class="mt-2 text-white/65">WhatsApp, retirada local e entrega combinada no checkout.</p>
+                <p class="mt-2 text-white/65">Pedidos pelo site, contato por WhatsApp e entrega ou retirada combinada.</p>
             </div>
             <div>
                 <p class="font-semibold">Gestao</p>
-                <a href="{{ route('admin.dashboard') }}" class="mt-2 inline-block text-white/65 hover:text-white">Abrir painel administrativo</a>
+                <a href="{{ route('admin.dashboard') }}" class="mt-2 inline-block text-white/65 hover:text-white">Entrar no painel da loja</a>
             </div>
         </div>
     </footer>

@@ -1,17 +1,17 @@
 @extends('layouts.store', ['title' => 'Freitas Imports'])
 
 @section('content')
-<section class="mx-auto grid max-w-7xl gap-8 px-4 py-8 sm:px-6 lg:grid-cols-[1.1fr_.9fr] lg:px-8">
-    <div class="flex min-h-[520px] flex-col justify-between rounded-lg bg-[#06166f] p-8 text-white sm:p-10">
+<section class="mx-auto grid max-w-7xl gap-6 px-4 py-6 sm:px-6 lg:grid-cols-[1fr_.85fr] lg:px-8">
+    <div class="flex min-h-[360px] flex-col justify-between rounded-lg bg-[#06166f] p-6 text-white sm:min-h-[440px] sm:p-10">
         <div>
-            <img src="{{ asset('images/freitas-imports-logo.png') }}" alt="Freitas Imports" class="h-24 w-24 rounded-full object-cover ring-4 ring-white/15">
-            <p class="mt-6 text-sm font-semibold uppercase tracking-[.16em] text-white/70">O essencial para se vestir bem</p>
-            <h1 class="mt-5 max-w-2xl text-4xl font-bold leading-tight sm:text-6xl">Freitas Imports</h1>
-            <p class="mt-5 max-w-xl text-base text-white/75">Moda, perfumes e achados selecionados com compra simples, atendimento direto e retirada ou entrega local.</p>
+            <img src="{{ asset('images/freitas-imports-logo.png') }}" alt="Freitas Imports" class="h-16 w-16 rounded-full object-cover ring-4 ring-white/15 sm:h-20 sm:w-20">
+            <p class="mt-5 text-sm font-semibold uppercase tracking-[.16em] text-white/70">O essencial para se vestir bem</p>
+            <h1 class="mt-4 max-w-2xl text-4xl font-bold leading-tight sm:text-5xl">Freitas Imports</h1>
+            <p class="mt-4 max-w-xl text-base text-white/75">Roupas, perfumes e presentes escolhidos para quem quer comprar rapido, com atendimento proximo e entrega combinada.</p>
         </div>
-        <div class="mt-8 flex flex-wrap gap-3">
-            <a href="{{ route('products.index') }}" class="rounded-lg bg-[#d40000] px-5 py-3 text-sm font-bold text-white">Comprar agora</a>
-            <a href="{{ route('admin.dashboard') }}" class="rounded-lg border border-white/25 px-5 py-3 text-sm font-semibold text-white">Abrir gestao</a>
+        <div class="mt-6 flex flex-wrap gap-3">
+            <a href="{{ route('products.index') }}" class="rounded-lg bg-[#d40000] px-5 py-3 text-sm font-bold text-white">Ver produtos</a>
+            <a href="{{ route('admin.dashboard') }}" class="rounded-lg border border-white/25 px-5 py-3 text-sm font-semibold text-white">Painel da loja</a>
         </div>
     </div>
     <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
@@ -33,7 +33,7 @@
 <section class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         @foreach ($categories as $category)
-            <a href="{{ route('products.index', ['category' => $category->slug]) }}" class="rounded-lg border border-black/10 bg-white p-5 hover:border-[#a3482a]">
+            <a href="{{ route('products.index', ['category' => $category->slug]) }}" class="rounded-lg border border-black/10 bg-white p-4 hover:border-[#a3482a] sm:p-5">
                 <p class="font-bold">{{ $category->name }}</p>
                 <p class="mt-1 text-sm text-[#756f66]">{{ $category->products_count }} produtos</p>
             </a>
@@ -45,7 +45,7 @@
     <div class="flex items-end justify-between gap-4">
         <div>
             <p class="text-sm font-semibold uppercase tracking-[.16em] text-[#a3482a]">Catalogo</p>
-            <h2 class="mt-2 text-3xl font-bold">Chegou agora</h2>
+            <h2 class="mt-2 text-3xl font-bold">Novidades da loja</h2>
         </div>
         <a href="{{ route('products.index') }}" class="text-sm font-semibold text-[#a3482a]">Ver todos</a>
     </div>

@@ -60,6 +60,7 @@ APP_ENV=production
 APP_KEY=cole-a-chave-gerada
 APP_DEBUG=false
 APP_URL=https://url-final-do-deploy
+ASSET_URL=https://url-final-do-deploy
 
 LOG_CHANNEL=stderr
 LOG_LEVEL=error

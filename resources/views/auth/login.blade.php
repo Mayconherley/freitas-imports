@@ -7,21 +7,21 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="min-h-screen bg-[#f4f5f2] text-[#1f2421] antialiased">
-    <main class="mx-auto grid min-h-screen max-w-6xl items-center gap-8 px-4 py-8 sm:px-6 lg:grid-cols-[1fr_440px] lg:px-8">
-        <section class="hidden min-h-[620px] rounded-lg bg-[#1f2421] p-10 text-white lg:flex lg:flex-col lg:justify-between">
+    <main class="mx-auto grid min-h-screen max-w-5xl items-center gap-6 px-4 py-6 sm:px-6 lg:grid-cols-[.9fr_420px] lg:px-8">
+        <section class="hidden min-h-[520px] rounded-lg bg-[#1f2421] p-10 text-white lg:flex lg:flex-col lg:justify-between">
             <div>
                 <p class="text-sm font-semibold uppercase tracking-[.16em] text-[#e3b77b]">Area interna</p>
-                <h1 class="mt-5 max-w-xl text-5xl font-bold leading-tight">Controle pedidos, produtos e estoque com menos atrito.</h1>
-                <p class="mt-5 max-w-lg text-white/65">A gestao fica separada da loja para evitar alteracoes acidentais e manter a rotina de atendimento mais organizada.</p>
+                <h1 class="mt-5 max-w-xl text-4xl font-bold leading-tight">Gestao simples para vender, acompanhar pedidos e cuidar do estoque.</h1>
+                <p class="mt-5 max-w-lg text-white/65">Entre para atualizar produtos, conferir vendas e manter a loja organizada no dia a dia.</p>
             </div>
             <a href="{{ route('home') }}" class="text-sm font-semibold text-white/70 hover:text-white">Voltar para a loja</a>
         </section>
 
-        <section class="rounded-lg bg-white p-6 shadow-sm ring-1 ring-black/10 sm:p-8">
-            <div class="mb-8">
-                <img src="{{ asset('images/freitas-imports-logo.png') }}" alt="Freitas Imports" class="h-16 w-16 rounded-full object-cover ring-1 ring-black/10">
-                <h2 class="mt-5 text-3xl font-bold">Entrar na gestao</h2>
-                <p class="mt-2 text-sm text-black/55">Use o email e senha do administrador.</p>
+        <section class="rounded-lg bg-white p-5 shadow-sm ring-1 ring-black/10 sm:p-7">
+            <div class="mb-6">
+                <img src="{{ asset('images/freitas-imports-logo.png') }}" alt="Freitas Imports" class="h-14 w-14 rounded-full object-cover ring-1 ring-black/10">
+                <h2 class="mt-4 text-2xl font-bold">Entrar na gestao</h2>
+                <p class="mt-2 text-sm text-black/55">Acesse o painel administrativo da Freitas Imports.</p>
             </div>
 
             @if (session('success'))

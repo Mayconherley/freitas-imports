@@ -8,8 +8,11 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\CustomerAuthController;
 use App\Http\Controllers\CustomerDashboardController;
+use App\Http\Controllers\HealthCheckController;
 use App\Http\Controllers\StorefrontController;
 use Illuminate\Support\Facades\Route;
+
+Route::get('/healthz', HealthCheckController::class)->name('healthz');
 
 Route::middleware('guest')->group(function () {
     Route::get('/login', [AuthController::class, 'create'])->name('login');
