@@ -80,6 +80,7 @@ FILESYSTEM_DISK=public
 STORE_WHATSAPP=5511999999999
 STORE_PIX_KEY=freitasimports@example.com
 DEPLOY_RUN_MIGRATIONS=true
+DEPLOY_RUN_SEEDERS=true
 ```
 
 Para gerar a chave `APP_KEY`, rode localmente:
@@ -96,15 +97,17 @@ No primeiro deploy, deixe:
 
 ```env
 DEPLOY_RUN_MIGRATIONS=true
+DEPLOY_RUN_SEEDERS=true
 ```
 
 Depois que abrir o site e confirmar que o banco foi criado, troque para:
 
 ```env
 DEPLOY_RUN_MIGRATIONS=false
+DEPLOY_RUN_SEEDERS=false
 ```
 
-Quando houver atualizacao que altera tabelas, pode voltar temporariamente para `true`.
+Quando houver atualizacao que altera tabelas, pode voltar temporariamente `DEPLOY_RUN_MIGRATIONS` para `true`. O `DEPLOY_RUN_SEEDERS` normalmente fica `false` depois do primeiro deploy.
 
 ## 5. Login inicial
 
