@@ -1,9 +1,9 @@
 @extends('layouts.store', ['title' => $product->name . ' - Freitas Imports'])
 
 @section('content')
-<section class="mx-auto grid max-w-7xl gap-8 px-4 py-8 sm:px-6 lg:grid-cols-[.95fr_1.05fr] lg:px-8">
+<section class="mx-auto grid max-w-7xl gap-8 px-4 py-8 sm:px-6 lg:grid-cols-[.8fr_1.2fr] lg:px-8">
     <div class="overflow-hidden rounded-lg bg-white ring-1 ring-black/10">
-        <img src="{{ $product->image_src }}" alt="{{ $product->name }}" class="h-full max-h-[720px] w-full object-cover">
+        <img src="{{ $product->image_src }}" alt="{{ $product->name }}" class="h-full max-h-[360px] w-full object-cover sm:max-h-[460px] lg:max-h-[520px]">
     </div>
     <div class="lg:py-8">
         <a href="{{ route('products.index', ['category' => $product->category->slug]) }}" class="text-sm font-semibold uppercase tracking-[.16em] text-[#a3482a]">{{ $product->category->name }}</a>
@@ -42,7 +42,7 @@
 @if ($relatedProducts->isNotEmpty())
     <section class="mx-auto mt-8 max-w-7xl px-4 sm:px-6 lg:px-8">
         <h2 class="text-2xl font-bold">Tambem combina</h2>
-        <div class="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="mt-5 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
             @foreach ($relatedProducts as $product)
                 @include('store.products.partials.card', ['product' => $product])
             @endforeach

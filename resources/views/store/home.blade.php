@@ -17,7 +17,7 @@
     <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
         @foreach ($featuredProducts->take(2) as $product)
             <a href="{{ route('products.show', ['product' => $product->slug]) }}" class="group overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-black/10">
-                <img src="{{ $product->image_src }}" alt="{{ $product->name }}" class="h-64 w-full object-cover transition duration-300 group-hover:scale-105">
+                <img src="{{ $product->image_src }}" alt="{{ $product->name }}" class="h-44 w-full object-cover transition duration-300 group-hover:scale-105 sm:h-52 lg:h-56">
                 <div class="p-5">
                     <p class="text-xs font-semibold uppercase text-[#a3482a]">{{ $product->category->name }}</p>
                     <div class="mt-1 flex items-center justify-between gap-4">
@@ -49,7 +49,7 @@
         </div>
         <a href="{{ route('products.index') }}" class="text-sm font-semibold text-[#a3482a]">Ver todos</a>
     </div>
-    <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3">
         @foreach ($newProducts as $product)
             @include('store.products.partials.card', ['product' => $product])
         @endforeach
